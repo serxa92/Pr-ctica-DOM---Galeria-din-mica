@@ -1,0 +1,1 @@
+# Práctica DOM - Galeria dinámica
