@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <script src="./app.js" defer></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <section class="filters">
+            <h2>Filtros</h2>
+            <form>
+                <label for="search">Buscar</label>
+                <input type="text" id="search" name="search">
+
+                <label for="category">Categoría</label>
+                <select name="category" id="category">
+                    <option value="all">Portátiles</option>
+                    <option value="clothes">Monitores</option>
+                    <option value="tech">Tarjetas Gráficas</option>
+                    <option value="toys">PCs</option>
+                </select>
+
+                <label for="price">Precio: <span id="price-value">0</span>€</label>
+                <input type="range" id="price" name="price" min="0" max="2000" step="1">
+
+
+                <button type="submit">Buscar</button>
+            </form>
+        </section>
+
+        <section class="products" id="product-list">
+
+        </section>
+    </div>
+</body>
+
+</html>
